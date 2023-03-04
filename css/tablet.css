@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+    .container {
+    width: 768px;
+      padding-right: 16px;
+      padding-left: 16px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .list-items {
+        gap: 72px 24px;
+       flex-direction: row;
+         flex-wrap: wrap;
+       text-align: start;
+
+       /* justify-content: flex-start;
+      text-align: center; */
+    }
+    .list-sec:not(:last-child) {
+        padding: 0;
+    }
+  .list-sec {  
+    max-width: 353px; 
+  }
+  
+ .team-block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+ }
+ .team-img:not(:last-child) {
+  margin-bottom: 0px;
+}
+.team-block {
+        /* display: inline-block; */
+         /* flex-direction: column;
+        justify-content: center;
+        text-align: center;  */
+      margin-right: auto;
+      margin-left: auto;
+      padding-bottom: 104px;
+      }
+
+
+      .comp-title {
+        margin-top: 96px;
+    }
+    .company-list {
+        flex-wrap: wrap;
+        gap: 72px 24px ;
+        margin-bottom: 96px;
+    }
+
+}

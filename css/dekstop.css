@@ -1,0 +1,74 @@
+@media screen and (min-width: 1200px) { 
+    .container {
+        width: 100%;
+        max-width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+      }
+      .title {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+      
+        /* text-align: center; */
+        letter-spacing: 0.02em;
+        
+        width: 496px;
+      
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 188px;
+      }
+      .icon-div {
+    display: flex;
+      }
+.photos {
+    display: block;
+}
+.title-section {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.section-text {
+    font-weight: 400;
+}
+.list-sec {
+    max-width: 264px;
+  }
+.list-items {
+    gap: 72px 24px;
+   flex-direction: row;
+     flex-wrap: nowrap;
+   text-align: start;
+
+   /* justify-content: flex-start;
+  text-align: center; */
+}
+.list-sec:not(:last-child) {
+    padding: 0;
+}
+.list-sec {  
+max-width: auto; 
+}
+
+        .team-block {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+              margin-right: 0px;
+              margin-left: 0px;
+              
+              }
+              .company-list {
+                flex-wrap:nowrap;
+                gap: 24px;
+                margin-bottom: 96px;
+            }
+            .company-link {
+                max-width: 168px;
+            }
+}
