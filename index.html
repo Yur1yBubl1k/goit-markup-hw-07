@@ -16,12 +16,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./css/tablet.css">
-    <link rel="stylesheet" href="./css/dekstop.css">
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/dekstop.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container nav-gen">
         <nav class="nav-gen">
           <a href="./index.html" class="head-btn"
@@ -53,8 +53,103 @@
             </li>
           </ul>
         </address>
+        <button type="button" data-menu-open class="mob-menu-open">
+          <svg class="mob-menu-svg" width="32px" height="22px">
+            <use
+              href="./images/symbol-defs 2.svg#icon-charm_menu-hamburger-1"
+            ></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container">
+          <div>
+            <button type="button" data-menu-close class="mob-menu-close">
+              <svg class="mob-menu-svg-close" width="8px" height="8px">
+                <use
+                  href="./images/symbol-defs 2.svg#icon-close-black-18dp-2-1-1"
+                ></use>
+              </svg>
+            </button>
+            <ul class="sec-ul mob-menu-list">
+              <li class="mob-menu-li-item">
+                <a
+                  href="./index.html"
+                  class="mob-menu-nav-li mob-menu-menu-link current"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-li-item">
+                <a
+                  href="./portfolio.html"
+                  class="mob-menu-nav-li mob-menu-menu-link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-li-item">
+                <a href="./index.html#mob-menu" class="mob-menu-nav-li mob-menu-menu-link"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="sec-ul mob-menu-adr-block">
+              <li class="mob-menu-li-item">
+                <a href="tel:+110001111111" class="mob-menu-contacts-tel"
+                >+11 (000) 111-11-11</a
+              >
+              </li>
+              <li class="mob-menu-li-item">
+                
+                <a href="mailto:info@devstudio.com" class="mob-menu-contacts"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-soc-contacts">
+              <li class="contacts-team">
+                <a href="" class="button-soc">
+                  <svg class="soc-link" width="16px" height="16px">
+                    <use
+                      href="./images/symbol-defs 2.svg#icon-instagram-2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts-team">
+                <a href="" class="button-soc">
+                  <svg class="soc-link" width="16px" height="16px">
+                    <use
+                      href="./images/symbol-defs 2.svg#icon-twitter-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts-team">
+                <a href="" class="button-soc">
+                  <svg class="soc-link" width="16px" height="16px">
+                    <use
+                      href="./images/symbol-defs 2.svg#icon-facebook-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="contacts-team">
+                <a href="" class="button-soc">
+                  <svg class="soc-link" width="16px" height="16px">
+                    <use
+                      href="./images/symbol-defs 2.svg#icon-linkedin-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="hero background-img">
         <div class="container background-img">
@@ -63,9 +158,9 @@
             Order Service
           </button>
         </div>
-      </section> 
+      </section>
 
-       <section class="section">
+      <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Feature</h2>
           <ul class="sec-ul list-items">
@@ -135,9 +230,9 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
-       <section class="photos">
+      <section class="photos">
         <div class="container">
           <h2 class="photos-title">What are we doing</h2>
           <ul class="sec-ul sec-photos">
@@ -167,9 +262,9 @@
             </li>
           </ul>
         </div>
-      </section> 
+      </section>
 
-        <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="sec-ul team-block">
@@ -367,9 +462,9 @@
             </li>
           </ul>
         </div>
-      </section>  
+      </section>
 
-       <section>
+      <section>
         <div class="container">
           <h2 class="comp-title">Customers</h2>
           <ul class="company-list">
@@ -417,9 +512,9 @@
             </li>
           </ul>
         </div>
-      </section>  
+      </section>
     </main>
-      <footer class="footer">
+    <footer class="footer">
       <div class="container foot-media">
         <div class="foot-block">
           <a href="./index.html" class="std-foot">
@@ -471,8 +566,7 @@
             <input type="email" name="email" placeholder="E-mail" />
 
             <button>
-              <span>Subscribe</span
-              >
+              <span>Subscribe</span>
               <svg class="sub-svg" width="24" height="24">
                 <use href="./images/symbol-defs 2.svg#icon-Frame-3-1"></use>
               </svg>
@@ -480,7 +574,7 @@
           </form>
         </div>
       </div>
-    </footer>  
+    </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-but" data-modal-close>
@@ -536,7 +630,13 @@
             ></textarea>
           </label>
           <label class="label-checkbox">
-            <input class="input-check visually-hidden " type="checkbox" name="priv-policy" value="true" required />
+            <input
+              class="input-check visually-hidden"
+              type="checkbox"
+              name="priv-policy"
+              value="true"
+              required
+            />
             <span class="check-text"
               >I accept the terms and conditions of the
               <a href="">Privacy Policy</a></span
@@ -547,5 +647,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

@@ -5,6 +5,13 @@
         padding: 0 15px;
         margin: 0 auto;
       }
+      .contacts {
+        font-size: 16px;
+      line-height: 1.5;
+      }
+      .adr-block {
+        flex-direction: row;
+      }
       .title {
         color: #ffffff;
         font-family: "Roboto";
@@ -55,20 +62,34 @@
 max-width: auto; 
 }
 
-        .team-block {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 24px;
-              margin-right: 0px;
-              margin-left: 0px;
-              
-              }
-              .company-list {
-                flex-wrap:nowrap;
-                gap: 24px;
-                margin-bottom: 96px;
-            }
-            .company-link {
-                max-width: 168px;
-            }
+  .team-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    }
+    .company-list {
+      flex-wrap:nowrap;
+      gap: 24px;
+      margin-bottom: 96px;
+  }
+  .company-link {
+      max-width: 168px;
+  }
+  .foot-block {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .foot-social-block {
+    margin-left: 120px;
+  }
+  .foot-input {
+    margin-left: 79px;
+  }
+  .foot-input input {
+    width: 264px;
+  }
+
 }
