@@ -103,6 +103,33 @@
       font-size: 12px;
     line-height: 1.17;
     }
+/* MAIN */
+
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/Dark-bg-tablet@2x.jpg);
+    }
+  }
+.background-img {
+  max-width: 1199px;
+  height: 436px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* background-image:  */
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/dark-bg-tablet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
     .title {
       font-size: 56px;
       line-height: 1.07;
@@ -155,6 +182,10 @@
         gap: 72px 24px ;
         margin-bottom: 96px;
     }
+    .company-link {
+      width: 168px;
+      height: 88px;
+  }
 
                 /* FOOTER */
 

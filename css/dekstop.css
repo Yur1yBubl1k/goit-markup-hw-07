@@ -12,6 +12,31 @@
       .adr-block {
         flex-direction: row;
       }
+      /* MAIN */
+      @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .hero {
+        background-image: url(../images/background@2x.jpg);
+      }
+    }
+
+      .background-img {
+        max-width: 1440px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(../images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
       .title {
         color: #ffffff;
         font-family: "Roboto";
@@ -76,8 +101,9 @@ max-width: auto;
       margin-bottom: 96px;
   }
   .company-link {
-      max-width: 168px;
-  }
+    width: 168px;
+    max-height: 88px;
+}
   .foot-block {
     margin-left: 0;
     margin-right: 0;

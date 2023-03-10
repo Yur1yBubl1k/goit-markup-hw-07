@@ -10,20 +10,19 @@
       margin-right: auto;
     }
     .mob-menu-open {
-        margin-top: 24px;
-        margin-bottom: 24px;
-        margin-right: 16px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-right: 16px;
         margin-left: auto;
         stroke: #2E2F42;
         border: none;
         background-color: inherit;
         cursor: pointer;
     }
-    .mob-menu-svg {
+    /* .mob-menu-svg {
         
-        /* border: none; */
-    
-      }
+         border: none; 
+      } */
     .title {
     font-size: 36px;
     line-height: 1.11;
@@ -34,6 +33,34 @@
     /* .background-img {
         height: 432px;
     } */
+
+    /* HERO */
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/Dark-bg-mobile@2x.jpg);
+    }
+  }
+
+    .background-img {
+        max-width: 767px;
+        height: 432px;
+        margin-left: auto;
+        margin-right: auto;
+      
+        /* background-image:  */
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(../images/dark-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
     .hero-but {
         margin-top: 72px;
     }
@@ -97,6 +124,10 @@
         flex-wrap: wrap;
         gap: 72px 16px ;
         margin-bottom: 96px;
+    }
+    .company-link {
+        width: 190px;
+        height: 88px;
     }
                       /* FOOTER */
  
